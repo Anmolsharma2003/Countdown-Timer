@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-image: url(Clock-Hourglass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items:center;
+     margin: 15vh;
+}
+.content{
+        color: white;
+        text-align: center;
+        font-weight:lighter;
+        font-size:  4rem; 
+       
+        
+    }
+    .count{
+        display: flex;
+        justify-content: center;
+    }
+    .col input{
+        display: block;
+        height: 9vh;
+        width: 15vh;
+        margin-left: 5vh;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .col label{
+        margin-left: 7vh;
+        font-weight: bold;
+        font-size: large;
+    }
